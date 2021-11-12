@@ -11,7 +11,7 @@ Para clonar e subir a aplicação, é necessário ter o Git e o Node.js instalad
 $ git clone https://github.com/alinenecchi/buy-cart.git
 
 # Vá até o repositório.
-$ cd cart-page
+$ cd buy-cart
 
 # Instale as dependências.
 $ yarn
