@@ -1,0 +1,20 @@
+{
+  "name": "buy-cart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"json-server --watch -p 3333 src/services/api.json\"",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.21.0",
+    "concurrently": "^5.3.0",
+    "json-server": "^0.16.2",
+    "next": "10.0.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^3.11.0",
+    "styled-components": "^5.2.1"
+  }
+}
